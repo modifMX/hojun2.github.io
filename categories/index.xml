@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Icarus</title>
+    <title>Categories on 素锦</title>
     <link>https://hojun2.github.io/categories/</link>
-    <description>Recent content in Categories on Icarus</description>
+    <description>Recent content in Categories on 素锦</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 11 Apr 2019 23:36:51 +0800</lastBuildDate>
     
 	<atom:link href="https://hojun2.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>123</title>
+      <link>https://hojun2.github.io/categories/123/</link>
+      <pubDate>Thu, 11 Apr 2019 23:36:51 +0800</pubDate>
+      
+      <guid>https://hojun2.github.io/categories/123/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

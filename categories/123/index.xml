@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>123 on 素锦</title>
+    <link>https://hojun2.github.io/categories/123/</link>
+    <description>Recent content in 123 on 素锦</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Apr 2019 23:36:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://hojun2.github.io/categories/123/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>你走了真好，不然总担心你要走</title>
+      <link>https://hojun2.github.io/2019/04/11/%E4%BD%A0%E8%B5%B0%E4%BA%86%E7%9C%9F%E5%A5%BD%E4%B8%8D%E7%84%B6%E6%80%BB%E6%8B%85%E5%BF%83%E4%BD%A0%E8%A6%81%E8%B5%B0/</link>
+      <pubDate>Thu, 11 Apr 2019 23:36:51 +0800</pubDate>
+      
+      <guid>https://hojun2.github.io/2019/04/11/%E4%BD%A0%E8%B5%B0%E4%BA%86%E7%9C%9F%E5%A5%BD%E4%B8%8D%E7%84%B6%E6%80%BB%E6%8B%85%E5%BF%83%E4%BD%A0%E8%A6%81%E8%B5%B0/</guid>
+      <description>最近一次苏晴产生离婚的想法，是两个月以前，天桥下买煎饼的时候。 老公掏零钱，不小心从裤兜里掉落一袋套套。苏晴假装没事，却趁对方不注意，偷偷把套</description>
+    </item>
+    
+    <item>
+      <title>9</title>
+      <link>https://hojun2.github.io/2019/03/13/9/</link>
+      <pubDate>Wed, 13 Mar 2019 23:23:34 +0800</pubDate>
+      
+      <guid>https://hojun2.github.io/2019/03/13/9/</guid>
+      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。对比Hexo，Hugo仅需一个二进制文件（hugo.exe）即</description>
+    </item>
+    
+  </channel>
+</rss>

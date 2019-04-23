@@ -5,7 +5,7 @@
     <link>https://hojun2.github.io/tags/</link>
     <description>Recent content in Tags on 素锦</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-CN</language>
     <lastBuildDate>Thu, 11 Apr 2019 23:36:51 +0800</lastBuildDate>
     
 	<atom:link href="https://hojun2.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -26,6 +26,24 @@
       <pubDate>Thu, 11 Apr 2019 23:36:51 +0800</pubDate>
       
       <guid>https://hojun2.github.io/tags/tag2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hexo</title>
+      <link>https://hojun2.github.io/tags/hexo/</link>
+      <pubDate>Wed, 13 Mar 2019 23:23:34 +0800</pubDate>
+      
+      <guid>https://hojun2.github.io/tags/hexo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://hojun2.github.io/tags/web/</link>
+      <pubDate>Wed, 13 Mar 2019 23:23:34 +0800</pubDate>
+      
+      <guid>https://hojun2.github.io/tags/web/</guid>
       <description></description>
     </item>
     

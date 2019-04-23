@@ -5,7 +5,7 @@
     <link>https://hojun2.github.io/categories/</link>
     <description>Recent content in Categories on 素锦</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-CN</language>
     <lastBuildDate>Thu, 11 Apr 2019 23:36:51 +0800</lastBuildDate>
     
 	<atom:link href="https://hojun2.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
@@ -17,6 +17,15 @@
       <pubDate>Thu, 11 Apr 2019 23:36:51 +0800</pubDate>
       
       <guid>https://hojun2.github.io/categories/123/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>中文</title>
+      <link>https://hojun2.github.io/categories/%E4%B8%AD%E6%96%87/</link>
+      <pubDate>Wed, 13 Mar 2019 23:23:34 +0800</pubDate>
+      
+      <guid>https://hojun2.github.io/categories/%E4%B8%AD%E6%96%87/</guid>
       <description></description>
     </item>
     

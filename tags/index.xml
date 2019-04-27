@@ -1,49 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 素锦</title>
-    <link>https://hojun2.github.io/tags/</link>
-    <description>Recent content in Tags on 素锦</description>
+    <title>Tags on 我的hugo博客</title>
+    <link>https://diaspora.hojun.cn/tags/</link>
+    <description>Recent content in Tags on 我的hugo博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 11 Apr 2019 23:36:51 +0800</lastBuildDate>
     
-	<atom:link href="https://hojun2.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://diaspora.hojun.cn/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>tag1</title>
-      <link>https://hojun2.github.io/tags/tag1/</link>
+      <link>https://diaspora.hojun.cn/tags/tag1/</link>
       <pubDate>Thu, 11 Apr 2019 23:36:51 +0800</pubDate>
       
-      <guid>https://hojun2.github.io/tags/tag1/</guid>
+      <guid>https://diaspora.hojun.cn/tags/tag1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tag2</title>
-      <link>https://hojun2.github.io/tags/tag2/</link>
+      <link>https://diaspora.hojun.cn/tags/tag2/</link>
       <pubDate>Thu, 11 Apr 2019 23:36:51 +0800</pubDate>
       
-      <guid>https://hojun2.github.io/tags/tag2/</guid>
+      <guid>https://diaspora.hojun.cn/tags/tag2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hexo</title>
-      <link>https://hojun2.github.io/tags/hexo/</link>
+      <link>https://diaspora.hojun.cn/tags/hexo/</link>
       <pubDate>Wed, 13 Mar 2019 23:23:34 +0800</pubDate>
       
-      <guid>https://hojun2.github.io/tags/hexo/</guid>
+      <guid>https://diaspora.hojun.cn/tags/hexo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://diaspora.hojun.cn/tags/hugo/</link>
+      <pubDate>Wed, 13 Mar 2019 23:23:34 +0800</pubDate>
+      
+      <guid>https://diaspora.hojun.cn/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web</title>
-      <link>https://hojun2.github.io/tags/web/</link>
+      <link>https://diaspora.hojun.cn/tags/web/</link>
       <pubDate>Wed, 13 Mar 2019 23:23:34 +0800</pubDate>
       
-      <guid>https://hojun2.github.io/tags/web/</guid>
+      <guid>https://diaspora.hojun.cn/tags/web/</guid>
       <description></description>
     </item>
     

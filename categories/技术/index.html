@@ -19,8 +19,39 @@
   
   </style>
   <link rel="stylesheet" href="/css/diaspora.css">
+  <link rel="stylesheet" href="/css/insight.css">
 </head><body class="loading">
-        <div id="loader"></div><div class="nav">
+        <div id="loader"></div><style>
+#search-input-wrap.on {
+    display: inline-block;
+}
+#search-input-wrap {
+    display: none;
+    padding-left: 6px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #999;
+}
+#search-input-icon {
+    color: #fff;
+    padding-right: .5em;
+    display: inline-block;
+    opacity: .7;
+}
+#search-input {
+    background: 0 0;
+    font-size: inherit;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;
+    outline: 0;
+    -webkit-appearance: none;
+}
+input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+</style>
+<div class="nav">
   <ul id="menu-menu" class="menu">
     
         <li ><a target="_blank" href="https://diaspora.hojun.cn/about/" class="pviewa">About</a></li>
@@ -33,9 +64,41 @@
     
         <li ><a target="" href="https://diaspora.hojun.cn/tags/" class="pviewa">Tags</a></li>
     
+    <div id="search-input-wrap" class="on">
+      <div id="search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input type="search" id="search-input" placeholder="Search..." class="aa-input" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-labelledby="search-input" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="aa-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-0" style="position: absolute; top: 100%; z-index: 100; display: none; left: 0px; right: auto;"><div class="aa-dataset-1"></div></span></span>
+    </div>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+            <span class="ins-close ins-selectable"><i class="icon-close"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            TAGS: '便签',
+        },
+        ROOT_URL: "https://diaspora.hojun.cn",
+        CONTENT_URL: '/lunr.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
   </ul>
   <p>&copy 2019 素锦 · Theme Diaspora Powered by Hugo</p>
-</div><div id="container">
+</div>
+<div id="container">
         
 <div id="screen">
     <div id="mark">
@@ -50,7 +113,6 @@
         </svg>
         <div style="background-color: rgb(176, 14, 36);"></div>
     </div>
-
     <div id="header">
         <div>
             <a class="icon-logo" href="/"></a>
@@ -59,7 +121,7 @@
     </div>
     <div id="post0">
         <p>March 13, 2019</p>
-        <h2><a title="10" class="posttitle" href="https://diaspora.hojun.cn/2019/03/13/10/">10</a></h2>
+        <h2><a title="10" class="posttitle" href="https://diaspora.hojun.cn/posts/10/">10</a></h2>
         <p>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。对比Hexo，Hugo...<p>
     </div>
 </div>
@@ -82,6 +144,13 @@
 </script>
 <script src="/js/jquery.min.js"></script>
 <script src="/js/plugin.js"></script>
-<script src="/js/diaspora.js"></script></body>
+<script src="/js/diaspora.js"></script>
+<script src="/js/InsightSearch.js"></script>
+<script>
+    $('#search-input').click(function() {
+        $('.ins-search').addClass('show')
+    })
+</script>
+</body>
 </html>
 

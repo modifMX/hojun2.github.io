@@ -19,6 +19,7 @@
   
   </style>
   <link rel="stylesheet" href="/css/diaspora.css">
+  <link rel="stylesheet" href="/css/insight.css">
 </head><body class="loading">
         <div id="loader"></div>
 <div id="single" class="page terms" style="min-height: 697px;">
@@ -33,14 +34,14 @@
                         <ul class="category-list">
                              
                             <li class="category-list-item">
-                                <a style="text-decoration:none" class="category-list-link" href="hugo">
-                                hugo</a>
-                                <span class="category-list-count">2</span>
+                                <a style="text-decoration:none" class="category-list-link" href="hexo">
+                                hexo</a>
+                                <span class="category-list-count">1</span>
                             </li>
                             
                             <li class="category-list-item">
-                                <a style="text-decoration:none" class="category-list-link" href="hexo">
-                                hexo</a>
+                                <a style="text-decoration:none" class="category-list-link" href="hugo">
+                                hugo</a>
                                 <span class="category-list-count">1</span>
                             </li>
                             
@@ -78,6 +79,13 @@
 </script>
 <script src="/js/jquery.min.js"></script>
 <script src="/js/plugin.js"></script>
-<script src="/js/diaspora.js"></script></body>
+<script src="/js/diaspora.js"></script>
+<script src="/js/InsightSearch.js"></script>
+<script>
+    $('#search-input').click(function() {
+        $('.ins-search').addClass('show')
+    })
+</script>
+</body>
 </html>
 

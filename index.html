@@ -21,39 +21,10 @@
   </style>
   <link rel="stylesheet" href="/css/diaspora.css">
   <link rel="stylesheet" href="/css/insight.css">
+  <link rel="stylesheet" href="/css/custom.css">
 </head><body class="loading">
         <div id="loader"></div>
-    <style>
-#search-input-wrap.on {
-    display: inline-block;
-}
-#search-input-wrap {
-    display: none;
-    padding-left: 6px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid #999;
-}
-#search-input-icon {
-    color: #fff;
-    padding-right: .5em;
-    display: inline-block;
-    opacity: .7;
-}
-#search-input {
-    background: 0 0;
-    font-size: inherit;
-    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #333;
-    outline: 0;
-    -webkit-appearance: none;
-}
-input {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-</style>
-<div class="nav">
+    <div class="nav">
   <ul id="menu-menu" class="menu">
     
         <li ><a target="_blank" href="https://diaspora.hojun.cn/about/" class="pviewa">About</a></li>
@@ -70,7 +41,7 @@ input {
       <div id="search-input-icon">
         <i class="fa fa-search"></i>
       </div>
-      <span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input type="search" id="search-input" placeholder="Search..." class="aa-input" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-labelledby="search-input" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="aa-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-0" style="position: absolute; top: 100%; z-index: 100; display: none; left: 0px; right: auto;"><div class="aa-dataset-1"></div></span></span>
+      <span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input type="search" id="search-input" placeholder="Search..." class="aa-input" style="position: relative; vertical-align: top;"></span>
     </div>
     <div class="ins-search">
     <div class="ins-search-mask"></div>
@@ -352,11 +323,7 @@ input {
 <script src="/js/plugin.js"></script>
 <script src="/js/diaspora.js"></script>
 <script src="/js/InsightSearch.js"></script>
-<script>
-    $('#search-input').click(function() {
-        $('.ins-search').addClass('show')
-    })
-</script>
+<script src="/js/custom.js"></script>
 </body>
 </html>
 

@@ -349,7 +349,7 @@ pre .keyword,pre .javascript .function {color:#cc99cc;}
   url('iconfont.svg?t=1556024836329#iconfont') format('svg'); /* iOS 4.1- */
 }
 
-.iconfont {
+.iconfont,.fa{
   font-family: "iconfont", "Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -420,6 +420,10 @@ pre .keyword,pre .javascript .function {color:#cc99cc;}
 }
 
 .icon-book:before {
+  content: "\e623";
+}
+
+.fa-file:before {
   content: "\e623";
 }
 
